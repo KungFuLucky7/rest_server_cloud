@@ -101,8 +101,10 @@ TEMPLATE_DIRS = (
 if ON_OPENSHIFT:
      DATABASES = {
          'default': {
-             'ENGINE': 'django.db.backends.sqlite3',
-             'NAME': os.path.join(os.environ['OPENSHIFT_DATA_DIR'], 'db.sqlite3'),
+             'ENGINE': 'django.db.backends.postgresql_psycopg2',
+             'NAME': 'restservercloud',                      # Or path to database file if using sqlite3.
+             'USER': 'admincmanu2u',
+             'PASSWORD': 'tctLqBJcA_Dq',
          }
      }
 else:
