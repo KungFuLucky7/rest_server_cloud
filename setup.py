@@ -14,7 +14,6 @@ setup(name='rest_server',
       description='RESTful server for archiving data uploaded by the Field Observation Server',
       author='Terry C. Wong',
       author_email='tw1123@mail.sfsu.edu',
-      url='https://github.com/KungFuLucky7/rest_server',
+      url='https://github.com/KungFuLucky7/rest_server_cloud',
       install_requires=packages,
 )
-
